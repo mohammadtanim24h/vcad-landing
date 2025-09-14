@@ -5,30 +5,16 @@
     --color-primary: #8ec8ee;
     --color-background: #030a2e;
     --color-surface: #061665;
+    --font-inter: "Inter", sans-serif;
 }
 
 body {
     background-color: var(--color-background);
 }
 
-/* Inter font */
-.inter-regular {
-    font-family: "Inter", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
-
-.inter-semibold {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-    font-display: swap;
-}
-
-.inter-extrabold {
-    font-family: "Inter", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-    font-display: swap;
+/* Apply Inter font globally */
+@layer base {
+    html {
+        font-family: var(--font-inter);
+    }
 }
