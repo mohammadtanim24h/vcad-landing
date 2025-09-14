@@ -3,7 +3,12 @@
 /* Theme colors */
 @theme {
     --color-primary: #8ec8ee;
-    --color-background: #061665;
+    --color-background: #030a2e;
+    --color-surface: #061665;
+}
+
+body {
+    background-color: var(--color-background);
 }
 
 /* Inter font */
