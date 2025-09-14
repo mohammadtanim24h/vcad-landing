@@ -8,7 +8,7 @@ const FeatureNav = () => {
     ];
     return (
         <nav className="flex justify-center">
-            <ul className="flex space-x-4 w-max uppercase p-6 border border-fuchsia">
+            <ul className="flex flex-col md:flex-row items-center text-base space-x-4 w-max uppercase p-6 border border-fuchsia">
                 {features.map((feature, index) => (
                     <li
                         className={`cursor-pointer ${
