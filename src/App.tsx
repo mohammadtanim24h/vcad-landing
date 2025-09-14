@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/header/Header";
 import Hero from "./components/hero/Hero";
+import FeatureNav from "./shared/FeatureNav";
 
 function App() {
     return (
@@ -8,6 +9,7 @@ function App() {
             <Header />
             <main className="space-y-48">
                 <Hero />
+                <FeatureNav />
             </main>
         </div>
     );
