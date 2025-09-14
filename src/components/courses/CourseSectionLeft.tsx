@@ -5,9 +5,11 @@ import SecondaryButton from "../../shared/SecondaryButton";
 const CourseSectionLeft = () => {
     return (
         <div className="flex flex-col md:flex-row items-start gap-6 md:gap-12">
+            {/* Image */}
             <div className="flex-1">
                 <img src={Magazine} alt="magazines" />
             </div>
+            {/* Content */}
             <div className="flex-1 space-y-4 md:space-y-12 py-8">
                 <h2 className="text-3xl md:text-5xl lg:text-6xl font-[900] leading-[100%] uppercase">
                     What will you <br /> <span>study?</span>
@@ -19,6 +21,7 @@ const CourseSectionLeft = () => {
                     help to prepare you for a rewarding career in the creative
                     and tech industries.
                 </p>
+                {/* Call to actions */}
                 <div className="flex gap-4">
                     <PrimaryButton content="View Courses" />
                     <SecondaryButton content="Download Prospectus" />
