@@ -22,7 +22,7 @@ body {
 
 /* Custom classes for common tailwind styles */
 .campus-badge {
-    @apply text-3xl font-[900] uppercase leading-[100%] p-4 w-max;
+    @apply md:text-xl lg:text-3xl font-[900] uppercase leading-[100%] p-4 w-full md:w-max text-center;
 }
 
 .maximum-width {
