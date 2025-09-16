@@ -3,7 +3,7 @@ import HeroImage from "../../assets/images/hero/hero.png";
 
 const Hero = () => {
     return (
-        <section className="flex flex-col md:flex-row justify-center items-center mt-8 lg:mt-0 gap-6 md:gap-2">
+        <section className="flex flex-col md:flex-row justify-center items-center mt-8 lg:mt-0 gap-6 md:gap-2 maximum-width">
             {/* Left content */}
             <div className="basis-1/2 space-y-4 lg:space-y-8">
                 <h1 className="text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-[900] leading-[100%] uppercase">

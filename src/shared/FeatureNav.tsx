@@ -7,7 +7,7 @@ const FeatureNav = () => {
         "Stories",
     ];
     return (
-        <nav className="flex justify-center">
+        <nav className="flex justify-center maximum-width">
             <ul className="flex flex-col md:flex-row items-center text-base space-x-4 w-max uppercase p-6 border border-fuchsia">
                 {features.map((feature, index) => (
                     <li

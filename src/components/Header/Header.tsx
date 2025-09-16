@@ -2,7 +2,7 @@ import Hamburger from "../../assets/icons/hamburger.png";
 
 const Header = () => {
     return (
-        <header className="flex justify-between items-center">
+        <header className="flex justify-between items-center maximum-width">
             {/* Logo */}
             <div className="w-[184px]">
                 <img src="/logo.png" alt="logo" />

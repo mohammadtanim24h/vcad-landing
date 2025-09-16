@@ -19,3 +19,12 @@ body {
         font-family: var(--font-inter);
     }
 }
+
+/* Custom classes for common tailwind styles */
+.campus-badge {
+    @apply text-3xl font-[900] uppercase leading-[100%] p-4 w-max;
+}
+
+.maximum-width {
+    @apply max-w-[1536px] mx-auto p-4;
+}
