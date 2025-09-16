@@ -5,7 +5,7 @@ import RightArrow from "../../assets/icons/right-arrow.png";
 
 const Campuses = () => {
     return (
-        <div className="relative w-screen bg-surface mt-24 md:mt-72 p-4">
+        <div className="relative bg-surface mt-24 md:mt-72 p-4">
             {/* Campus Name Badges */}
             <h3 className="campus-badge bg-fuchsia md:absolute md:top-40 md:left-30 md:-rotate-15 z-50">
                 Canary Wharf

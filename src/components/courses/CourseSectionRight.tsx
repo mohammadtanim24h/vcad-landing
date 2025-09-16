@@ -29,7 +29,7 @@ const CourseSectionRight = () => {
                 <div className="relative">
                     <img src={Discussion} alt="discussion" />
                     {/* Apply Card */}
-                    <div className="absolute bottom-[-100px] md:bottom-[-120px] right-[-20px] md:right-[-60px] flex flex-col md:flex-row justify-center md:justify-around items-center gap-3 md:gap-10 bg-surface px-2 py-4 md:px-6 md:py-10 w-3/4 md:w-3xl">
+                    <div className="absolute bottom-[-100px] md:bottom-[-120px] right-0 2xl:right-[-60px] flex flex-col md:flex-row justify-center md:justify-around items-center gap-3 md:gap-10 bg-surface px-2 py-4 md:px-6 md:py-10 w-3/4 2xl:w-3xl">
                         <p className="flex-1 text-lg md:text-4xl text-primary font-[900] px-4 md:px-0">
                             There's Still Time to Apply for September 2025
                         </p>
