@@ -19,9 +19,17 @@ function App() {
 
                 <Suspense
                     fallback={
-                        <p className="text-primary font-[900]">
-                            Loading student testimonials...
-                        </p>
+                        <div>
+                            <h2 className="text-3xl md:text-5xl lg:text-6xl inline-block font-[900] leading-[100%]">
+                                Student{" "}
+                                <span className="after:content-[''] after:block lg:after:h-[20px] after:h-[10px] after:bg-primary lg:after:mt-[-26px] after:mt-[-10px]">
+                                    Testimonials
+                                </span>
+                            </h2>
+                            <p className="text-primary font-[900] mt-6 text-center">
+                                Loading student testimonials...
+                            </p>
+                        </div>
                     }
                 >
                     <StudentTestimonials />
