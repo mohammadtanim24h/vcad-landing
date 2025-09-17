@@ -69,7 +69,7 @@ const Campuses = () => {
                     </div>
                 </div>
                 <div className="text-center mt-8">
-                    <h2 className="text-3xl md:text-5xl lg:text-6xl xl:text-7xl inline-block font-[900] leading-[100%] after:content-[''] after:block lg:after:h-[20px] after:h-[10px] after:bg-primary lg:after:mt-[-26px] after:mt-[-10px]">
+                    <h2 className="text-3xl md:text-5xl lg:text-6xl inline-block font-[900] leading-[100%] after:content-[''] after:block lg:after:h-[20px] after:h-[10px] after:bg-primary lg:after:mt-[-26px] after:mt-[-10px]">
                         Campuses
                     </h2>
                     <p className="text-lg md:w-3/4 lg:w-1/3 mx-auto mt-8">

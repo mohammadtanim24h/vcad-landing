@@ -4,6 +4,8 @@ import Hero from "./components/hero/Hero";
 import FeatureNav from "./shared/FeatureNav";
 import Courses from "./components/courses/Courses";
 import Campuses from "./components/campuses/Campuses";
+import StudentTestimonials from "./components/studentTestimonials/StudentTestimonials";
+import { Suspense } from "react";
 
 function App() {
     return (
@@ -14,6 +16,16 @@ function App() {
                 <FeatureNav />
                 <Courses />
                 <Campuses />
+
+                <Suspense
+                    fallback={
+                        <p className="text-primary font-[900]">
+                            Loading student testimonials...
+                        </p>
+                    }
+                >
+                    <StudentTestimonials />
+                </Suspense>
             </main>
         </div>
     );
